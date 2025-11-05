@@ -5,9 +5,9 @@ import {motion, AnimatePresence} from "framer-motion";
 import {useState} from "react";
 
 const Service = () => {
-  const [openIndex, setOpenIndex] = useState(null);
+  const [openIndex, setOpenIndex] = useState<number | null>(null);
 
-  const handleToggle = (index) => {
+  const handleToggle = (index: number) => {
     setOpenIndex((prevIndex) => (prevIndex === index ? null : index));
   };
 
