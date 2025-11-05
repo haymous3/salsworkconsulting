@@ -9,15 +9,15 @@ const AboutUs = () => {
         <h2 className="text-4xl font-bold">
           About <span className="text-primary">Us</span>
         </h2>
-        <p className="font-semibold w-[30%] text-[#666666] mx-auto leading-6 mt-4">
+        <p className="font-semibold w-fit px-10 2xl:px-0 2xl:w-[30%] text-[#666666] mx-auto leading-6 mt-4">
           Salworks IT consulting is a boutique information technology firm that
           provides cutting edge technologies with a tailor-made approach to help
           businesses achieve their unique goals.
         </p>
       </div>
 
-      <div className="flex justify-between items-center px-30">
-        <div className="w-[30%] font-semibold text-2xl border-r border-r-[#666666]  leading-8">
+      <div className="block 2xl:flex flex-wrap justify-between items-center 2xl:px-30">
+        <div className="2xl:w-[30%] w-full font-semibold px-15 2xl:px-0 2xl: text-left 2xl:text-2xl border-r border-r-[#666666]  leading-8">
           <h3>
             We’re <span className="text-primary">Passionate</span> About Growing
             Businesses with{" "}
@@ -27,16 +27,16 @@ const AboutUs = () => {
             <Link href="/about_us">About Us</Link>
           </Button>
         </div>
-        <div className="w-[30%] leading-7">
-          <BriefcaseIcon className="text-primary  w-[60] h-[60]" />
+        <div className="2xl:w-[30%] px-15 2xl:px-0 mt-8 2xl:mt-0 leading-7 w-full text-center">
+          <BriefcaseIcon className="text-primary mx-auto 2xl:mx-0  w-[60] h-[60]" />
           <h3 className="font-semibold mt-3">Our Mission</h3>
           <p className="text-[#666666]">
             Become the most innovative, customer-centric, inclusive and
             sustainable business intelligence Company in the world
           </p>
         </div>
-        <div className="w-[30%] leading-7">
-          <BriefcaseIcon className="text-primary w-[60] h-[60]" />
+        <div className="2xl:w-[30%] px-15 2xl:px-0 mt-8 2xl:mt-0 leading-7 w-full text-center">
+          <BriefcaseIcon className="text-primary mx-auto 2xl:mx-0  w-[60] h-[60]" />
           <h3 className="font-semibold mt-3">Our Vision</h3>
           <p className="text-[#666666]">
             To deliver a sustainable business growth for the businesses through

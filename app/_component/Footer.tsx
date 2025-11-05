@@ -5,7 +5,7 @@ import {PhoneIcon, EnvelopeIcon, MapPinIcon} from "@heroicons/react/24/solid";
 
 const Footer = () => {
   return (
-    <section className="relative mt-10 bg-[url('/background_2.jpg')] bg-cover bg-bottom h-80 flex items-center justify-between px-20 w-full">
+    <section className="relative my-30 2xl:my-0 bg-[url('/background_2.jpg')] bg-cover bg-bottom 2xl:h-80 h-fit flex items-center justify-between 2xl:px-20 px-7 py-10 2xl:py-0 w-full">
       <motion.div
         className="absolute inset-0 bg-black/65"
         initial={{opacity: 0}}
@@ -20,9 +20,9 @@ const Footer = () => {
         animate={{opacity: 1, y: 0}}
         transition={{duration: 1.2, ease: "easeOut", delay: 0.3}}
       >
-        <div className="flex justify-between">
-          <div className="w-[30%]">
-            <h2>Logo</h2>
+        <div className="block 2xl:flex justify-between">
+          <div className="w-full 2xl:w-[30%]">
+            <h2 className="text-left 2xl:text-center">Logo</h2>
             <p className="text-justify leading-8">
               Salworks IT consulting is a boutique information technology firm
               that provides cutting edge technologies with a tailor-made
@@ -36,7 +36,9 @@ const Footer = () => {
             </div>
           </div>
           <nav>
-            <h2 className="font-bold">COMPANY</h2>
+            <h2 className="font-bold mt-10 2xl:mt-5 text-left 2xl:text-center">
+              COMPANY
+            </h2>
             <ul className="text-left mt-5 leading-7">
               <li className="font-semibold">Home</li>
               <li className="font-semibold">Service</li>
