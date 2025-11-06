@@ -18,7 +18,7 @@ const ContactUsForm = () => {
               type="text"
               id="name"
               placeholder="Name"
-              className="border-2 border-[#fff] w-full h-[60] rounded-sm bg-white px-5"
+              className="border-2 border-white w-full h-[60] rounded-sm bg-white px-5"
             />
           </div>
           <div className="w-full 2xl:w-[48.5%]">
@@ -29,7 +29,7 @@ const ContactUsForm = () => {
               type="email"
               id="email"
               placeholder="Email"
-              className="border-2 border-[#fff] w-full h-[60] rounded-sm bg-white px-5"
+              className="border-2 border-white w-full h-[60] rounded-sm bg-white px-5"
             />
           </div>
         </div>
@@ -42,7 +42,7 @@ const ContactUsForm = () => {
               type="phone"
               id="phone"
               placeholder="Phone"
-              className="border-2 border-[#fff] w-full h-[60] rounded-sm bg-white px-5"
+              className="border-2 border-white w-full h-[60] rounded-sm bg-white px-5"
             />
           </div>
           <div className="w-full 2xl:w-[48.5%]">
@@ -53,7 +53,7 @@ const ContactUsForm = () => {
               type="text"
               id="subject"
               placeholder="Subject"
-              className="border-2 border-[#fff] w-full h-[60] rounded-sm bg-white px-5"
+              className="border-2 border-white w-full h-[60] rounded-sm bg-white px-5"
             />
           </div>
         </div>
@@ -65,7 +65,7 @@ const ContactUsForm = () => {
             type="text"
             id="message"
             placeholder="Message"
-            className="border-2 border-[#fff] w-full h-[120] rounded-sm bg-white px-5"
+            className="border-2 border-white w-full h-[120] rounded-sm bg-white px-5"
           />
         </div>
         <input

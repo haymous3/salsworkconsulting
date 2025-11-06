@@ -23,7 +23,7 @@ const Header = () => {
       
           <ul className="hidden md:flex gap-6">
             <li className="font-semibold hover:text-primary transition-colors">
-              <Link href="/home">Home</Link>
+              <Link href="/">Home</Link>
             </li>
             <li className="font-semibold hover:text-primary transition-colors">
               <Link href="/about_us">About</Link>
