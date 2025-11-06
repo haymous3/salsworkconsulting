@@ -8,6 +8,11 @@ import contact from "@/public/contact_3.jpg";
 import ContactsInformation from "../_component/ContactsInformation";
 import ContactUsForm from "../_component/ContactUsForm";
 
+
+export const metadata = {
+  title: "Contact",
+};
+
 const Page = () => {
   return (
     <>

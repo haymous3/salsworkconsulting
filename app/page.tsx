@@ -16,7 +16,7 @@ export default function Home() {
     <>
       <Header />
       <Hero image={hero} background="background_7.jpg">
-        <div className="w-full sm:w-fit mt-[6rem] md:mt-[7rem] sm:mt-[5rem] lg:mt-[7rem] xl-[0rem] 2xl:mt-[0rem] md:w-fit md:px-20 lg:w-fit xl:w-[50%] text-center md:text-left flex flex-col items-center md:items-start">
+        <div className="w-full sm:w-fit mt-24 md:mt-28 sm:mt-20 lg:mt-28 xl-[0rem] 2xl:mt-0 md:w-fit md:px-20 lg:w-fit xl:w-[50%] text-center md:text-left flex flex-col items-center md:items-start">
           <h4 className="text-primary font-bold text-sm sm:text-base md:text-lg mb-2">
             GROW YOUR BUSINESS
           </h4>

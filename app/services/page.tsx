@@ -10,6 +10,10 @@ import OurServices from "../_component/Our_Services";
 import ChooseUs from "../_component/Choose_Us";
 import FadeInSection from "../_component/FadeInSection";
 
+export const metadata = {
+  title: "Service",
+};
+
 const Page = () => {
   return (
     <>
