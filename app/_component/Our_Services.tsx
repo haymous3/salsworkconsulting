@@ -51,7 +51,7 @@ const OurServices = () => {
       {OurServiceDetails.map((service, i) => (
         <div
           key={i}
-          className={`flex justify-between items-center px-100 mt-25 ${
+          className={`block 2xl:flex justify-between items-center px-10 2xl:px-100 mt-10 2xl:mt-25 ${
             i % 2 === 0 ? "flex-row-reverse" : ""
           }`}
         >
@@ -59,10 +59,10 @@ const OurServices = () => {
             src={service.img}
             placeholder="blur"
             quality={70}
-            className="w-[45%] relative -top-10 left-6"
+            className="w-full 2xl:w-[45%] relative top:0 2xl:-top-10 2xl:left-6 left-0"
             alt="Service image"
           />
-          <div className="max-w-md leading-7">
+          <div className="mt-10 2xl:mt-0 max-w-md leading-7">
             <h1 className="bg-primary rounded-4xl text-white font-bold w-fit px-4 py-4 mb-6">
               {i + 1}
             </h1>

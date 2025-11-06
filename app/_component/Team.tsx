@@ -19,7 +19,7 @@ const Team = () => {
       {teamDetail.map((team, i) => (
         <div
           key={i}
-          className={`flex justify-between px-80 mt-25 ${
+          className={`block 2xl:flex justify-between px-15 2xl:px-80 mt-10 2xl:mt-25 ${
             i % 2 === 0 ? "flex-row-reverse" : ""
           }`}
         >
@@ -27,11 +27,11 @@ const Team = () => {
             src={team.img}
             placeholder="blur"
             quality={70}
-            className="w-[45%] relative -top-10 left-6"
+            className="w-full wxl:w-[45%] relative top:0 2xl:-top-10 2xl:left-6 left-0"
             alt="Team image"
           />
           <div className="max-w-md">
-            <h2 className="text-2xl font-semibold text-gray-800">
+            <h2 className="2xl:text-2xl text-lg font-semibold text-gray-800">
               {team.text}
             </h2>
           </div>

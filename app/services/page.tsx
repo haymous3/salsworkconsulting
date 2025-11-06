@@ -17,9 +17,9 @@ const Page = () => {
       <FadeInSection>
         <div className="relative">
           <Hero background="background_6.jpg" image={hero3}>
-            <div className="w-[55%] text-left">
+            <div className="2xl:w-[55%] mt-15 2xl:mt-0 text-left w-full">
               <h4 className="text-primary font-bold">SERVICE</h4>
-              <h3 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 leading-tight drop-shadow-lg">
+              <h3 className="text-4xl sm:text-5xl mb-0 md:text-6xl font-bold 2xl:mb-4 leading-tight drop-shadow-lg">
                 Services
                 <span className="text-primary"> We Offer!</span>
               </h3>
