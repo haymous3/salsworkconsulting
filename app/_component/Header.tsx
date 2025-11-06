@@ -81,7 +81,7 @@ const Header = () => {
             >
               <ul className="flex flex-col gap-4 px-6 py-5 border-t">
                 <li className="font-semibold hover:text-primary transition-colors">
-                  <Link href="/home" onClick={() => setMenuOpen(false)}>
+                  <Link href="/" onClick={() => setMenuOpen(false)}>
                     Home
                   </Link>
                 </li>
