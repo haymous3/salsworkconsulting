@@ -17,7 +17,7 @@ const Service = () => {
         <BriefcaseIcon className="text-primary mx-auto w-[60px] h-[60px]" />
       ),
       heading: "Network Solution",
-      text: "Salworks provides a range of services related to the design, installation, maintenance, and repair of networking systems. These systems can include computer networks, data centers, and internet and wireless networks. We work with businesses, organizations, and government agencies to provide network solutions that meet their specific needs and goals.",
+      text: "Versavvy provides a range of services related to the design, installation, maintenance, and repair of networking systems. These systems can include computer networks, data centers, and internet and wireless networks. We work with businesses, organizations, and government agencies to provide network solutions that meet their specific needs and goals.",
     },
     {
       icon: (
@@ -31,7 +31,7 @@ const Service = () => {
         <BriefcaseIcon className="text-primary mx-auto w-[60px] h-[60px]" />
       ),
       heading: "Market Research",
-      text: "Salworks helps with gathering and analyzing data about consumers, competitors, and the market to inform business decisions. Our market research service has helped businesses understand the needs and preferences of their target customers, as well as the competitive landscape in which they operate.",
+      text: "Versavvy helps with gathering and analyzing data about consumers, competitors, and the market to inform business decisions. Our market research service has helped businesses understand the needs and preferences of their target customers, as well as the competitive landscape in which they operate.",
     },
     {
       icon: (
@@ -52,7 +52,7 @@ const Service = () => {
         <BriefcaseIcon className="text-primary mx-auto w-[60px] h-[60px]" />
       ),
       heading: "Business Analysis",
-      text: "At Salworks, we employ cutting-edge tools to identify and define business needs and opportunities then determine and implement solutions to meet those needs. Our business analysts work with businesses to make informed decisions, improve processes, and increase efficiency and effectiveness.",
+      text: "At Versavvy, we employ cutting-edge tools to identify and define business needs and opportunities then determine and implement solutions to meet those needs. Our business analysts work with businesses to make informed decisions, improve processes, and increase efficiency and effectiveness.",
     },
   ];
 

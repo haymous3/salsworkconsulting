@@ -24,7 +24,7 @@ const Footer = () => {
           <div className="w-full 2xl:w-[30%]">
             <h2 className="text-left 2xl:text-center">Logo</h2>
             <p className="text-justify leading-8">
-              Salworks IT consulting is a boutique information technology firm
+              Versavvy IT consulting is a boutique information technology firm
               that provides cutting edge technologies with a tailor-made
               approach to help businesses achieve their unique goals.
             </p>

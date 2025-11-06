@@ -19,17 +19,17 @@ const OurServices = () => {
     {
       img: Service_2,
       heading: "Market Research",
-      text: "Are you looking to make informed decisions about your business, but not sure where to start? Salworks can help. We offer a range of market research services that will provide you with the data and insights you need to make strategic decisions about your products, services, and target market.\nOur team of experienced professionals uses a variety of methods, including surveys, focus groups, and data analysis, to gather accurate and actionable information about your market. With our help, you’ll be able to understand your customers better, identify new opportunities, and stay ahead of the competition. Trust Salworks to help your business succeed.",
+      text: "Are you looking to make informed decisions about your business, but not sure where to start? Versavvy can help. We offer a range of market research services that will provide you with the data and insights you need to make strategic decisions about your products, services, and target market.\nOur team of experienced professionals uses a variety of methods, including surveys, focus groups, and data analysis, to gather accurate and actionable information about your market. With our help, you’ll be able to understand your customers better, identify new opportunities, and stay ahead of the competition. Trust Versavvy to help your business succeed.",
     },
     {
       img: Service_3,
       heading: "Business Analysis",
-      text: "At Salworks, we look to improve the efficiency and profitability of businesses. Our team of experienced professionals has a proven track record of helping businesses for growth and streamline operations.\nWith our comprehensive analysis and expert insights, we’ll help you make informed decisions that drive success. Whether you’re looking to enter a new market, expand your product offerings, or simply optimize your current operations, we have the tools and expertise to help you reach your goals. Let us be your trusted partner in business analysis and watch your company thrive.",
+      text: "At Versavvy, we look to improve the efficiency and profitability of businesses. Our team of experienced professionals has a proven track record of helping businesses for growth and streamline operations.\nWith our comprehensive analysis and expert insights, we’ll help you make informed decisions that drive success. Whether you’re looking to enter a new market, expand your product offerings, or simply optimize your current operations, we have the tools and expertise to help you reach your goals. Let us be your trusted partner in business analysis and watch your company thrive.",
     },
     {
       img: Service_4,
       heading: "Cloud Engineering",
-      text: "Are you ready to take your business to the next level with the power of the cloud? Salworks can help. Our team of experienced cloud engineers has a proven track record of helping businesses like yours migrate to the cloud, optimize their infrastructure, and build scalable, reliable applications.\nWe offer a range of cloud engineering services, including cloud migration, cloud optimization, and custom cloud solution development. With our help, you’ll be able to leverage the benefits of the cloud, including increased flexibility, scalability, and cost-efficiency. Let us be your trusted partner in cloud engineering and watch your business thrive.",
+      text: "Are you ready to take your business to the next level with the power of the cloud? Versavvy can help. Our team of experienced cloud engineers has a proven track record of helping businesses like yours migrate to the cloud, optimize their infrastructure, and build scalable, reliable applications.\nWe offer a range of cloud engineering services, including cloud migration, cloud optimization, and custom cloud solution development. With our help, you’ll be able to leverage the benefits of the cloud, including increased flexibility, scalability, and cost-efficiency. Let us be your trusted partner in cloud engineering and watch your business thrive.",
     },
     {
       img: Service_5,

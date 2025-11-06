@@ -10,7 +10,7 @@ const AboutUs = () => {
           About <span className="text-primary">Us</span>
         </h2>
         <p className="font-semibold w-fit px-10 2xl:px-0 2xl:w-[30%] text-[#666666] mx-auto leading-6 mt-4">
-          Salworks IT consulting is a boutique information technology firm that
+          Versavvy IT consulting is a boutique information technology firm that
           provides cutting edge technologies with a tailor-made approach to help
           businesses achieve their unique goals.
         </p>

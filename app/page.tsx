@@ -23,11 +23,11 @@ export default function Home() {
 
           <h3 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight drop-shadow-lg">
             Get Your Result-driven Analysis With{" "}
-            <span className="text-primary">Salworks</span>
+            <span className="text-primary">Versavvy</span>
           </h3>
 
           <p className="text-sm sm:text-base md:text-lg lg:text-xl text-justify opacity-90  max-w-2xl drop-shadow leading-7">
-            Salworks IT consulting is a boutique information technology firm
+            Versavvy IT consulting is a boutique information technology firm
             that provides cutting edge technologies with a tailor-made approach
             to help businesses achieve their unique goals. By leveraging
             industry best practices, our vendor-neutral solutions help clients

@@ -27,7 +27,7 @@ const Page = () => {
             </h3>
 
             <p className=" text-justify sm:text-lg md:text-xl opacity-90 max-w-2xl drop-shadow leading-7">
-              At Salworks IT consulting, we provide cutting edge technologies
+              At Versavvy IT consulting, we provide cutting edge technologies
               with a tailor-made approach to help businesses achieve their
               unique goals. Our vendor-neutral solutions leverage industry best
               practices to develop client data management and data driven

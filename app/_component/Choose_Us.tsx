@@ -33,7 +33,7 @@ const ChooseUs = () => {
             Why <span className="text-primary">Choose Us?</span>
           </h2>
           <p className="text-[#666666]">
-            Choosing Salworks for your business’s needs affords you the
+            Choosing Versavvy for your business’s needs affords you the
             following benefits to mention a few:
           </p>
         </div>
