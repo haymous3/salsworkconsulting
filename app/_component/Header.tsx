@@ -1,38 +1,3 @@
-// import Link from "next/link";
-// import Button from "./Button";
-
-// const Header = () => {
-//   return (
-//     <nav className="flex justify-between items-center bg-white px-20 py-5">
-//       <div className="flex gap-4">
-//         <h2 className="border-r-2 pr-3">Logo</h2>
-
-//         <ul className="flex gap-3">
-//           <li className="font-semibold hover:text-primary">
-//             <Link href="/home">Home</Link>
-//           </li>
-//           <li className="font-semibold  hover:text-primary">
-//             <Link href="/about_us">About</Link>
-//           </li>
-
-//           <li className="font-semibold hover:text-primary">
-//             <Link href="/services">Services</Link>
-//           </li>
-//           <li className="font-semibold hover:text-primary">
-//             <Link href="contact_us">Contact Us</Link>
-//           </li>
-//         </ul>
-//       </div>
-
-//       <Button className="px-4 py-3 text-white font-semibold rounded-md text-[1rem]">
-//         GET STARTED
-//       </Button>
-//     </nav>
-//   );
-// };
-
-// export default Header;
-
 "use client";
 
 import {useState} from "react";
@@ -49,13 +14,13 @@ const Header = () => {
   return (
     <nav className="bg-white shadow-md w-full fixed top-0 left-0 z-50">
       <div className="flex justify-between items-center px-6 md:px-20 py-4">
-        {/* Logo Section */}
+   
         <div className="flex items-center gap-4">
           <h2 className="border-r-2 pr-3 text-lg font-bold text-gray-800">
             Logo
           </h2>
 
-          {/* Desktop Navigation */}
+      
           <ul className="hidden md:flex gap-6">
             <li className="font-semibold hover:text-primary transition-colors">
               <Link href="/home">Home</Link>
@@ -72,14 +37,14 @@ const Header = () => {
           </ul>
         </div>
 
-        {/* Desktop Button */}
+ 
         <div className="hidden md:block">
           <Button className="px-5 py-3 text-white font-semibold rounded-md text-[1rem]">
             GET STARTED
           </Button>
         </div>
 
-        {/* Mobile Menu Toggle */}
+     
         <button
           onClick={toggleMenu}
           className="md:hidden focus:outline-none text-gray-800"
@@ -92,11 +57,11 @@ const Header = () => {
         </button>
       </div>
 
-      {/* Background Overlay + Mobile Menu */}
+   
       <AnimatePresence>
         {menuOpen && (
           <>
-            {/* Background Blur Overlay */}
+          
             <motion.div
               className="fixed inset-0 bg-black/30 backdrop-blur-sm z-40"
               initial={{opacity: 0}}
@@ -106,7 +71,7 @@ const Header = () => {
               onClick={() => setMenuOpen(false)}
             />
 
-            {/* Mobile Dropdown Menu */}
+          
             <motion.div
               initial={{height: 0, opacity: 0}}
               animate={{height: "auto", opacity: 1}}
