@@ -31,17 +31,18 @@ const AboutUs = () => {
           <BriefcaseIcon className="text-primary mx-auto 2xl:mx-0  w-[60] h-[60]" />
           <h3 className="font-semibold mt-3">Our Mission</h3>
           <p className="text-[#666666]">
-            Become the most innovative, customer-centric, inclusive and
-            sustainable business intelligence Company in the world
+            To empower businesses and individuals through intelligent,
+            data-driven, and affordable technology solutions that solve
+            real-world problems and create measurable impact.
           </p>
         </div>
         <div className="2xl:w-[30%] px-15 2xl:px-0 mt-8 2xl:mt-0 leading-7 w-full text-center">
           <BriefcaseIcon className="text-primary mx-auto 2xl:mx-0  w-[60] h-[60]" />
           <h3 className="font-semibold mt-3">Our Vision</h3>
           <p className="text-[#666666]">
-            To deliver a sustainable business growth for the businesses through
-            our business intelligence expertise and collaboration with our
-            partners.
+            To be a leading African technology company recognized globally for
+            excellence in AI-driven innovation, software development, and
+            transformative digital solutions.
           </p>
         </div>
       </div>

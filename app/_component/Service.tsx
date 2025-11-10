@@ -16,36 +16,36 @@ const Service = () => {
       icon: (
         <BriefcaseIcon className="text-primary mx-auto w-[60px] h-[60px]" />
       ),
-      heading: "Network Solution",
-      text: "Versavvy provides a range of services related to the design, installation, maintenance, and repair of networking systems. These systems can include computer networks, data centers, and internet and wireless networks. We work with businesses, organizations, and government agencies to provide network solutions that meet their specific needs and goals.",
+      heading: "Artificial Intelligence Solution",
+      text: "Versavvy provides a range of services including machine learning models, natural language processing, and predictive analytics.",
     },
     {
       icon: (
         <BriefcaseIcon className="text-primary mx-auto w-[60px] h-[60px]" />
       ),
-      heading: "Data Solution",
-      text: "We provide systems and tools designed to help businesses collect, store, manage, and analyze data. These solutions can be used to help businesses make informed decisions, improve processes, and gain insights into their operations. Our data solutions can be used in a variety of industries, including finance, healthcare, retail, and manufacturing.",
+      heading: "Software and Application Development",
+      text: "We design and deployment of custom applications and digital platforms.",
     },
     {
       icon: (
         <BriefcaseIcon className="text-primary mx-auto w-[60px] h-[60px]" />
       ),
-      heading: "Market Research",
-      text: "Versavvy helps with gathering and analyzing data about consumers, competitors, and the market to inform business decisions. Our market research service has helped businesses understand the needs and preferences of their target customers, as well as the competitive landscape in which they operate.",
+      heading: "Data Engineering and Integration",
+      text: "Versavvy helps with building and maintaining robust data pipelines, APIs, and automation systems.",
     },
     {
       icon: (
         <BriefcaseIcon className="text-primary mx-auto w-[60px] h-[60px]" />
       ),
-      heading: "Software Development",
-      text: "We have a team of software developers ready to build functional and efficient solutions at scale to meet your business needs. Our software developers craft custom software solutions, maintain and update existing software systems while improving efficiency and productivity.",
+      heading: "Cloud-Based Solutions",
+      text: "We leverage on modern infrastructure such as Microsoft Azure and AWS to deliver scalable systems.",
     },
     {
       icon: (
         <BriefcaseIcon className="text-primary mx-auto w-[60px] h-[60px]" />
       ),
-      heading: "Cloud Engineering",
-      text: "We help businesses design, build, and maintain cloud computing systems. Our cloud engineers work with businesses to understand their needs and develop cloud solutions that meet those needs from choosing the right cloud provider and architecture, configuring and setting up the cloud environment to the security of their cloud infrastructure.",
+      heading: "Technology Consulting",
+      text: "We offering strategic guidance and technical expertise for organizations adopting AI and digital transformation.",
     },
     {
       icon: (
