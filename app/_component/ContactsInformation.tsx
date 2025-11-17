@@ -41,7 +41,7 @@ const ContactsInformation = () => {
           <p className="text-gray-600 mb-4">{contact.text}</p>
 
           {contact.button && (
-            <Button className="bg-blue-500 text-white font-semibold px-4 py-2 rounded-lg hover:bg-blue-600 transition-colors duration-300">
+            <Button className="bg-primary-500 text-white font-semibold px-4 py-2 rounded-lg hover:bg-[#362A39] transition-colors duration-300">
               {contact.button}
             </Button>
           )}
