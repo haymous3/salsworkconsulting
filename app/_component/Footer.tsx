@@ -2,6 +2,9 @@
 import {motion} from "framer-motion";
 import {FaFacebook, FaTwitter, FaInstagram} from "react-icons/fa";
 import {PhoneIcon, EnvelopeIcon, MapPinIcon} from "@heroicons/react/24/solid";
+import logo from "@/public/white_logo.png";
+//import ChooseUs2 from "@/public/choose_us_2.jpg";
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -22,7 +25,8 @@ const Footer = () => {
       >
         <div className="block 2xl:flex justify-between">
           <div className="w-full 2xl:w-[30%]">
-            <h2 className="text-left 2xl:text-center">Logo</h2>
+           
+           <img src="/white_logo.png" alt="logo" className="h-20 w-20" />
             <p className="text-justify leading-8">
               Versavvy IT consulting is a boutique information technology firm
               that provides cutting edge technologies with a tailor-made

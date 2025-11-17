@@ -22,10 +22,10 @@ const Page = () => {
         <div className="relative">
           <Hero background="background_6.jpg" image={hero3}>
             <div className="2xl:w-[55%] mt-15 2xl:mt-0 text-left w-full">
-              <h4 className="text-primary font-bold">SERVICE</h4>
+              <h4 className="text-secondary font-bold">SERVICE</h4>
               <h3 className="text-4xl sm:text-5xl mb-0 md:text-6xl font-bold 2xl:mb-4 leading-tight drop-shadow-lg">
                 Services
-                <span className="text-primary"> We Offer!</span>
+                <span className="text-secondary"> We Offer!</span>
               </h3>
               <p className=" text-justify sm:text-lg md:text-xl opacity-90 max-w-2xl drop-shadow leading-7">
                 Versavvy IT consulting is a boutique information technology firm

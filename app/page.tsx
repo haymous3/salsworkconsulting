@@ -17,13 +17,13 @@ export default function Home() {
       <Header />
       <Hero image={hero} background="background_7.jpg">
         <div className="w-full sm:w-fit mt-24 md:mt-28 sm:mt-20 lg:mt-28 xl-[0rem] 2xl:mt-0 md:w-fit md:px-20 lg:w-fit xl:w-[50%] text-center md:text-left flex flex-col items-center md:items-start">
-          <h4 className="text-primary font-bold text-sm sm:text-base md:text-lg mb-2">
+          <h4 className="text-secondary font-bold text-sm sm:text-base md:text-lg mb-2">
             GROW YOUR BUSINESS
           </h4>
 
           <h3 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight drop-shadow-lg">
             Get Your Result-driven Analysis With{" "}
-            <span className="text-primary">Versavvy</span>
+            <span className="text-secondary">Versavvy</span>
           </h3>
 
           <p className="text-sm sm:text-base md:text-lg lg:text-xl text-justify opacity-90  max-w-2xl drop-shadow leading-7">

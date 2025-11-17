@@ -17,10 +17,10 @@ const Page = () => {
       <div className="relative">
         <Hero background="background_5.jpg" image={hero4}>
           <div className="2xl:w-[55%] mt-15 2xl:mt-0 text-left w-full">
-            <h4 className="text-primary font-bold">Who we are?</h4>
+            <h4 className="text-secondary font-bold">Who we are?</h4>
             <h3 className="text-4xl sm:text-5xl mb-0 md:text-6xl font-bold 2xl:mb-4 leading-tight drop-shadow-lg">
               Want to Know a little{" "}
-              <span className="text-primary">
+              <span className="text-secondary">
                 About <br /> us?
               </span>{" "}
               Let us tell you.

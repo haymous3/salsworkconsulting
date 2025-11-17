@@ -8,7 +8,6 @@ import contact from "@/public/contact_3.jpg";
 import ContactsInformation from "../_component/ContactsInformation";
 import ContactUsForm from "../_component/ContactUsForm";
 
-
 export const metadata = {
   title: "Contact",
 };
@@ -20,13 +19,13 @@ const Page = () => {
       <div className="relative">
         <Hero background="background_6.jpg" image={contact}>
           <div className="2xl:w-[55%] mt-15 2xl:mt-0 text-left w-full">
-            <h4 className="text-primary font-bold">NEED HELP?</h4>
+            <h4 className="text-secondary font-bold">NEED HELP?</h4>
             <h3 className="text-4xl sm:text-5xl mb-0 md:text-6xl font-bold 2xl:mb-4 leading-tight drop-shadow-lg">
-              You Have a<span className="text-primary"> Question?</span>
+              You Have a<span className="text-secondary"> Question?</span>
             </h3>
             <h3 className="text-4xl sm:text-5xl mb-0 md:text-6xl font-bold 2xl:mb-4 leading-tight drop-shadow-lg">
               Let us
-              <span className="text-primary"> Answer</span> it.
+              <span className="text-secondary"> Answer</span> it.
             </h3>
             <p className=" text-justify sm:text-lg md:text-xl opacity-90 max-w-2xl drop-shadow leading-7">
               We’re always ready and eager to answer all of yours questions.
