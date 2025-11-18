@@ -14,13 +14,12 @@ const Header = () => {
   return (
     <nav className="bg-white shadow-md w-full fixed top-0 left-0 z-50">
       <div className="flex justify-between items-center px-6 md:px-20 py-4">
-   
         <div className="flex items-center gap-4">
-          <h2 className="border-r-2 pr-3 text-lg font-bold text-gray-800">
+          {/* <h2 className="border-r-2 pr-3 text-lg font-bold text-gray-800">
             Logo
-          </h2>
+          </h2> */}
+          <img src="/dark_logo.png" alt="logo" className="h-20 w-20" />
 
-      
           <ul className="hidden md:flex gap-6">
             <li className="font-semibold hover:text-primary transition-colors">
               <Link href="/">Home</Link>
@@ -37,14 +36,12 @@ const Header = () => {
           </ul>
         </div>
 
- 
         <div className="hidden md:block">
           <Button className="px-5 py-3 text-white font-semibold rounded-md text-[1rem]">
             GET STARTED
           </Button>
         </div>
 
-     
         <button
           onClick={toggleMenu}
           className="md:hidden focus:outline-none text-gray-800"
@@ -57,11 +54,9 @@ const Header = () => {
         </button>
       </div>
 
-   
       <AnimatePresence>
         {menuOpen && (
           <>
-          
             <motion.div
               className="fixed inset-0 bg-black/30 backdrop-blur-sm z-40"
               initial={{opacity: 0}}
@@ -71,7 +66,6 @@ const Header = () => {
               onClick={() => setMenuOpen(false)}
             />
 
-          
             <motion.div
               initial={{height: 0, opacity: 0}}
               animate={{height: "auto", opacity: 1}}

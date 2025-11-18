@@ -10,8 +10,8 @@ const montserrat = Montserrat({
 
 export const metadata: Metadata = {
   title: {
-    template: "%s / Salworks",
-    default: "Welcome to Salworks",
+    template: "%s / Versavvy",
+    default: "Welcome to Versavvy",
   },
 };
 
