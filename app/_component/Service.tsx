@@ -47,13 +47,6 @@ const Service = () => {
       heading: "Technology Consulting",
       text: "We offering strategic guidance and technical expertise for organizations adopting AI and digital transformation.",
     },
-    {
-      icon: (
-        <BriefcaseIcon className="text-primary mx-auto w-[60px] h-[60px]" />
-      ),
-      heading: "Business Analysis",
-      text: "At Versavvy, we employ cutting-edge tools to identify and define business needs and opportunities then determine and implement solutions to meet those needs. Our business analysts work with businesses to make informed decisions, improve processes, and increase efficiency and effectiveness.",
-    },
   ];
 
   return (

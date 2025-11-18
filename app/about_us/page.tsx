@@ -27,11 +27,18 @@ const Page = () => {
             </h3>
 
             <p className=" text-justify sm:text-lg md:text-xl opacity-90 max-w-2xl drop-shadow leading-7">
-              At Versavvy IT consulting, we provide cutting edge technologies
-              with a tailor-made approach to help businesses achieve their
-              unique goals. Our vendor-neutral solutions leverage industry best
-              practices to develop client data management and data driven
-              solutions.
+              Versavvy IT Consulting is a boutique information technology
+              company that provides cutting edge, data driven solutions to help
+              businesses achieve their unique goals. We focus on artificial
+              intelligence, software and application development, data
+              engineering and integration, cloud solutions and technology
+              consulting
+            </p>
+            <p className="mt-10 text-justify sm:text-lg md:text-xl opacity-90 max-w-2xl drop-shadow leading-7">
+              Our approach is vendor neutral and client focused. We combine
+              industry best practices with a tailor made delivery model to
+              improve quality, drive engagement, enhance operational efficiency,
+              remediate risk, and unlock new opportunities for revenue growth.
             </p>
             <Button className="px-5 py-4 mt-4 font-bold rounded-sm">
               <Link href="about_us">LEARN MORE</Link>

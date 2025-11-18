@@ -1,10 +1,10 @@
 "use client";
 import {motion} from "framer-motion";
 import {FaFacebook, FaTwitter, FaInstagram} from "react-icons/fa";
-import {PhoneIcon, EnvelopeIcon, MapPinIcon} from "@heroicons/react/24/solid";
-import logo from "@/public/white_logo.png";
+import { EnvelopeIcon, MapPinIcon} from "@heroicons/react/24/solid";
+//import logo from "@/public/white_logo.png";
 //import ChooseUs2 from "@/public/choose_us_2.jpg";
-import Image from "next/image";
+//import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -25,8 +25,7 @@ const Footer = () => {
       >
         <div className="block 2xl:flex justify-between">
           <div className="w-full 2xl:w-[30%]">
-           
-           <img src="/white_logo.png" alt="logo" className="h-20 w-20" />
+            <img src="/white_logo.png" alt="logo" className="h-20 w-20" />
             <p className="text-justify leading-8">
               Versavvy IT consulting is a boutique information technology firm
               that provides cutting edge technologies with a tailor-made
@@ -53,17 +52,17 @@ const Footer = () => {
           <div className="text-left">
             <h2 className="font-bold">HELP</h2>
             <div className="leading-10">
-              <div className="flex gap-4 mt-5 items-center">
+              {/* <div className="flex gap-4 mt-5 items-center">
                 <PhoneIcon className="w-6 h-6 text-white hover:text-blue-500 transition-colors" />{" "}
                 <p>+2348137386134</p>
-              </div>
+              </div> */}
               <div className="flex gap-4 items-center">
                 <EnvelopeIcon className="w-6 h-6 text-white hover:text-blue-500 transition-colors" />{" "}
-                <p> adeyemoaid@gmail.com</p>
+                <p> Contact@versavvy.com </p>
               </div>
               <div className="flex gap-4 items-center">
                 <MapPinIcon className="w-6 h-6 text-white hover:text-blue-500 transition-colors" />{" "}
-                <p>Nigeria</p>
+                <p>26 Commercial Avenue, Yaba, Lagos, Nigeria</p>
               </div>
             </div>
           </div>

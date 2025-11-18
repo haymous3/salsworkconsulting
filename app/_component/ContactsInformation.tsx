@@ -1,24 +1,24 @@
-import {PhoneIcon, EnvelopeIcon, MapPinIcon} from "@heroicons/react/24/solid";
+import { EnvelopeIcon, MapPinIcon} from "@heroicons/react/24/solid";
 import Button from "./Button";
 
 const ContactsInformation = () => {
   const contactDetails = [
-    {
-      heading: "PHONE NUMBER",
-      icon: <PhoneIcon className="w-8 h-8 text-primary" />,
-      text: "+2348137386134",
-      button: "CALL US ON",
-    },
+    // {
+    //   heading: "PHONE NUMBER",
+    //   icon: <PhoneIcon className="w-8 h-8 text-primary" />,
+    //   text: "+2348137386134",
+    //   button: "CALL US ON",
+    // },
     {
       heading: "ADDRESS",
       icon: <MapPinIcon className="w-8 h-8 text-primary" />,
-      text: "Federal University of Agriculture, Abeokuta",
+      text: "26 Commercial Avenue, Yaba, Lagos, Nigeria",
       button: "View on Map",
     },
     {
       heading: "EMAIL",
       icon: <EnvelopeIcon className="w-8 h-8 text-primary" />,
-      text: "adeyemoaid@gmail.com",
+      text: "Contact@versavvy.com ",
       button: "Send a Message",
     },
   ];

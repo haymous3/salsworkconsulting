@@ -6,9 +6,10 @@ import Hero from "../_component/Hero";
 
 import hero3 from "@/public/hero-3.png";
 import Team from "../_component/Team";
-import OurServices from "../_component/Our_Services";
+//import OurServices from "../_component/Our_Services";
 import ChooseUs from "../_component/Choose_Us";
 import FadeInSection from "../_component/FadeInSection";
+import Service from "../_component/Service";
 
 export const metadata = {
   title: "Service",
@@ -44,7 +45,7 @@ const Page = () => {
         <Team />
       </FadeInSection>
 
-      <OurServices />
+      <Service />
 
       <FadeInSection>
         <ChooseUs />
