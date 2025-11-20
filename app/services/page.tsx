@@ -29,7 +29,7 @@ const Page = () => {
                 <span className="text-secondary"> We Offer!</span>
               </h3>
               <p className=" text-justify sm:text-lg md:text-xl opacity-90 max-w-2xl drop-shadow leading-7">
-                Versavvy IT consulting is a boutique information technology firm
+                Versavvy Limited consulting is a boutique information technology firm
                 that provides cutting edge technologies with a tailor-made
                 approach to help businesses achieve their unique goals.
               </p>

@@ -22,17 +22,21 @@ export default function Home() {
           </h4>
 
           <h3 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight drop-shadow-lg">
-            Get Your Result-driven Analysis With{" "}
+            Build Intelligent, Data Driven Solutions With
             <span className="text-secondary">Versavvy</span>
           </h3>
 
           <p className="text-sm sm:text-base md:text-lg lg:text-xl text-justify opacity-90  max-w-2xl drop-shadow leading-7">
-            Versavvy IT consulting is a boutique information technology firm
-            that provides cutting edge technologies with a tailor-made approach
-            to help businesses achieve their unique goals. By leveraging
-            industry best practices, our vendor-neutral solutions help clients
-            to develop and mature their IT practices while providing data driven
-            solutions.
+            Versavvy Limited is a boutique information technology company that
+            builds intelligent, data driven and affordable technology solutions
+            to help organizations achieve their unique goals. We focus on
+            artificial intelligence, software and application development, data
+            engineering and integration, cloud based solutions and technology
+            consulting. <br/> Our approach is vendor neutral and client focused. We
+            combine industry best practices with a tailored delivery model to
+            improve quality, drive engagement, enhance operational efficiency,
+            reduce risk and unlock new opportunities for revenue growth and
+            digital transformation.
           </p>
 
           {/* Buttons */}

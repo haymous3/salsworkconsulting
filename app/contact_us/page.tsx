@@ -28,7 +28,7 @@ const Page = () => {
               <span className="text-secondary"> Answer</span> it.
             </h3>
             <p className=" text-justify sm:text-lg md:text-xl opacity-90 max-w-2xl drop-shadow leading-7">
-              We’re always ready and eager to answer all of yours questions.
+              We’re always ready and eager to answer all of your questions.
               Click the button below to get in touch with us.
             </p>
             <Button className="px-5 py-4 mt-4 font-bold rounded-sm">

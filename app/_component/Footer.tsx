@@ -1,7 +1,7 @@
 "use client";
 import {motion} from "framer-motion";
 import {FaFacebook, FaTwitter, FaInstagram} from "react-icons/fa";
-import { EnvelopeIcon, MapPinIcon} from "@heroicons/react/24/solid";
+import {EnvelopeIcon, MapPinIcon} from "@heroicons/react/24/solid";
 //import logo from "@/public/white_logo.png";
 //import ChooseUs2 from "@/public/choose_us_2.jpg";
 //import Image from "next/image";
@@ -27,8 +27,8 @@ const Footer = () => {
           <div className="w-full 2xl:w-[30%]">
             <img src="/white_logo.png" alt="logo" className="h-20 w-20" />
             <p className="text-justify leading-8">
-              Versavvy IT consulting is a boutique information technology firm
-              that provides cutting edge technologies with a tailor-made
+              Versavvy Limited consulting is a boutique information technology
+              firm that provides cutting edge technologies with a tailor-made
               approach to help businesses achieve their unique goals.
             </p>
             <hr />
@@ -70,7 +70,10 @@ const Footer = () => {
 
         <hr className="mt-10" />
 
-        <p className="text-center mt-5"> &copy; CopyWrite 2025</p>
+        <p className="text-center mt-5">
+          {" "}
+          &copy; 2025 Versavvy Limited. All rights reserved
+        </p>
       </motion.div>
     </section>
   );

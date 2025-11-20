@@ -1,6 +1,6 @@
 "use client";
 
-import {BriefcaseIcon, UserIcon} from "@heroicons/react/24/solid";
+//import {BriefcaseIcon, UserIcon} from "@heroicons/react/24/solid";
 
 const Archievement = () => {
   return (
@@ -13,12 +13,10 @@ const Archievement = () => {
             <span className="text-primary">Business</span>
           </h2>
           <p className="px-10 2xl:px-0 font-light 2xl:font-semibold 2xl:w-[50%]  mx-auto leading-6 mt-4">
-            Our solutions and services are designed to improve quality, drive
-            engagements, improve operational efficiencies, remediate risk, and
-            enhance opportunities to increase revenue.
+           Our solutions and services are designed to improve quality, drive engagement, enhance operational efficiency, remediate risk and create more opportunities for revenue growth.
           </p>
         </div>
-        <div className="mt-10 2xl:mt-0 block 2xl:flex flex-wrap w-full justify-around 2xl:px-60">
+        {/* <div className="mt-10 2xl:mt-0 block 2xl:flex flex-wrap w-full justify-around 2xl:px-60">
           <div className="text-center leading-10 2xl:leading-0">
             <BriefcaseIcon className="text-primary text-center mx-auto w-[60] h-[60]" />
             <h3 className="text-md font-bold 2xl:text-3xl">300</h3>
@@ -42,7 +40,7 @@ const Archievement = () => {
             <h3 className="text-md font-bold 2xl:text-3xl">300</h3>
             <p className="text-md font-semibold 2xl:text-2xl">Award</p>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );

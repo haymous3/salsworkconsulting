@@ -89,6 +89,25 @@ const Features = () => {
           />
         </div>
       </div>
+      <div className="block bg-[#f7f9fe] 2xl:flex mt-30">
+        <div>
+          <Image
+            src={image2}
+            placeholder="blur"
+            quality={70}
+            className="w-[85%] relative -top-10 left-6"
+            alt="Mountains and forests with two cabins"
+          />
+        </div>
+        <div className="leading-8 px-7 pb-3 2xl:px-0 2xl:pb-0">
+          <BriefcaseIcon className="text-primary mt-6  w-[60px] h-[60px]" />
+          <h2 className="font-semibold"> CONTINUOUS LEARNING</h2>
+          <p className="text-[#666666]">
+            We explore and apply modern technologies, especially AI, to build
+            practical solutions for our clients.
+          </p>
+        </div>
+      </div>
     </div>
   );
 };

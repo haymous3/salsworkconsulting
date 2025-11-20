@@ -16,7 +16,7 @@ const Service = () => {
       icon: (
         <BriefcaseIcon className="text-primary mx-auto w-[60px] h-[60px]" />
       ),
-      heading: "Artificial Intelligence Solution",
+      heading: "Artificial Intelligence Solutions",
       text: "Versavvy provides a range of services including machine learning models, natural language processing, and predictive analytics.",
     },
     {
@@ -24,7 +24,7 @@ const Service = () => {
         <BriefcaseIcon className="text-primary mx-auto w-[60px] h-[60px]" />
       ),
       heading: "Software and Application Development",
-      text: "We design and deployment of custom applications and digital platforms.",
+      text: "We design and deploy of custom applications and digital platforms.",
     },
     {
       icon: (
@@ -38,14 +38,14 @@ const Service = () => {
         <BriefcaseIcon className="text-primary mx-auto w-[60px] h-[60px]" />
       ),
       heading: "Cloud-Based Solutions",
-      text: "We leverage on modern infrastructure such as Microsoft Azure and AWS to deliver scalable systems.",
+      text: "We leverage modern infrastructure such as Microsoft Azure and AWS to deliver scalable systems.",
     },
     {
       icon: (
         <BriefcaseIcon className="text-primary mx-auto w-[60px] h-[60px]" />
       ),
       heading: "Technology Consulting",
-      text: "We offering strategic guidance and technical expertise for organizations adopting AI and digital transformation.",
+      text: "We offer strategic guidance and technical expertise for organizations adopting AI and digital transformation.",
     },
   ];
 

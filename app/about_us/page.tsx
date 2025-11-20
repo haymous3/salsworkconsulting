@@ -27,7 +27,7 @@ const Page = () => {
             </h3>
 
             <p className=" text-justify sm:text-lg md:text-xl opacity-90 max-w-2xl drop-shadow leading-7">
-              Versavvy IT Consulting is a boutique information technology
+              Versavvy Limited Consulting is a boutique information technology
               company that provides cutting edge, data driven solutions to help
               businesses achieve their unique goals. We focus on artificial
               intelligence, software and application development, data
