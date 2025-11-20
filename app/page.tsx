@@ -62,9 +62,9 @@ export default function Home() {
         <Service />
       </FadeInSection>
 
-      <FadeInSection>
+   
         <Features />
-      </FadeInSection>
+    
 
       <FadeInSection>
         <Footer />
