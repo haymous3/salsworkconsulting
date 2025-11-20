@@ -12,7 +12,7 @@ type HeroProps = {
 const Hero = ({children, image, background}: HeroProps) => {
   return (
     <section
-      className="relative bg-cover bg-bottom sm:h-fit py-10 2xl:py-0 md:h-fit lg:h-fit xl:h-screen flex items-center justify-center"
+      className="relative flex-col-reverse 2xl:flex-col bg-cover bg-bottom sm:h-fit py-10 2xl:py-0 md:h-fit lg:h-fit xl:h-screen flex items-center justify-center"
       style={{backgroundImage: `url(/${background})`}}
     >
       <motion.div
@@ -34,7 +34,7 @@ const Hero = ({children, image, background}: HeroProps) => {
             src={image}
             placeholder="blur"
             quality={70}
-            className="sm:w-fit w-fit md:w-fit xl:w-[80%] 2xl:w-[30%] sm:h-fit md:h-fit lg:h-fit xl:h-[600px] rounded-2xl"
+            className="sm:w-fit w-fit md:w-fit xl:w-[80%] 2xl:mt-10 2xl:w-[30%] sm:h-fit md:h-fit lg:h-fit xl:h-[600px] rounded-2xl"
             alt="Mountains and forests with two cabins"
           />
         </div>
