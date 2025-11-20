@@ -8,7 +8,7 @@ import {EnvelopeIcon, MapPinIcon} from "@heroicons/react/24/solid";
 
 const Footer = () => {
   return (
-    <section className="relative my-30 2xl:my-0 bg-[url('/background_2.jpg')] bg-cover bg-bottom 2xl:h-80 h-fit flex items-center justify-between 2xl:px-20 px-7 py-10 2xl:py-0 w-full">
+    <section className="relative my-30 2xl:my-0 bg-[url('/background_2.jpg')] bg-cover bg-bottom 2xl:h-fit h-fit flex items-center justify-between 2xl:px-20 2xl:mt-7 px-7 py-10 2xl:py-10 w-full">
       <motion.div
         className="absolute inset-0 bg-black/65"
         initial={{opacity: 0}}
@@ -70,7 +70,7 @@ const Footer = () => {
 
         <hr className="mt-10" />
 
-        <p className="text-center mt-5">
+        <p className="text-center mt-5 2xl:mt-0">
           {" "}
           &copy; 2025 Versavvy Limited. All rights reserved
         </p>
